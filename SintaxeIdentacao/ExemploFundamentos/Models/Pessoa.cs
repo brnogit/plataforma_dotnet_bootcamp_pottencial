@@ -1,19 +1,19 @@
+using Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace sintaxe_e_identacao.Models
+namespace ExemploFundamentos.Models
 {
     public class Pessoa
     {
         public string Nome { get; set; }
         public int Idade { get; set; }
         
-        public void Apresentar(string @class) 
+        public void Apresentar()
         {
-            @class = "teste";
-            Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos");
+            Console.WriteLine($"Olá, meu nome é {Nome}, e tenho {Idade} anos");
         }
         
     }
