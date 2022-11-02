@@ -1,12 +1,20 @@
 ﻿using ExemploFundamentos.Models;
 
-string apresentacao = "Olá, seja bem vindo";
+DateTime dataAtual = DateTime.Now.AddDays(5);
+Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
-int quantidade = 1;
-Console.WriteLine("Valor da variável quantidade: " + quantidade);
 
-quantidade = 10;
-Console.WriteLine("Valor da variável quantidade: " + quantidade);
+
+
+
+
+// string apresentacao = "Olá, seja bem vindo";
+
+// int quantidade = 1;
+// Console.WriteLine("Valor da variável quantidade: " + quantidade);
+
+// quantidade = 10;
+// Console.WriteLine("Valor da variável quantidade: " + quantidade);
 
 
 
