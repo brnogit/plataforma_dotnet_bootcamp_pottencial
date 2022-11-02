@@ -2,8 +2,8 @@
 
 
 // cast - casting
-//int a = Convert.ToInt32("5");
-int a = int.Parse("5");
+//int a = Convert.ToInt32(null);
+int a = int.Parse(null);
 Console.WriteLine(a);
 
 
