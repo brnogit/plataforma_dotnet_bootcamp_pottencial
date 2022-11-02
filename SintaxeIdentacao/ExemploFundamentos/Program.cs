@@ -1,13 +1,31 @@
 ﻿using ExemploFundamentos.Models;
 
-int inteiro = 5;
+// int a = 5;
+// double b = a;
 
-string a = inteiro.ToString();
+//int a = 5;
+//long b = a;
+
+//long a = long.MaxValue;
+//int b = Convert.ToInt32(a);
+
+int a = int.MaxValue;
+long b = a;
+
+Console.WriteLine(b);
 
 
 
 
-Console.WriteLine(a);
+
+
+
+
+// int inteiro = 5;
+
+// string a = inteiro.ToString();
+
+// Console.WriteLine(a);
 
 
 
