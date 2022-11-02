@@ -1,10 +1,27 @@
 ﻿using ExemploFundamentos.Models;
 
+int inteiro = 5;
+
+string a = inteiro.ToString();
+
+
+
+
+Console.WriteLine(a);
+
+
+
+
+
+
+
+
+
 
 // cast - casting
 //int a = Convert.ToInt32(null);
-int a = int.Parse(null);
-Console.WriteLine(a);
+// int a = int.Parse(null);
+// Console.WriteLine(a);
 
 
 
