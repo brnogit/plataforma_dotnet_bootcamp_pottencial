@@ -1,9 +1,24 @@
 ﻿using ExemploFundamentos.Models;
 
-Pessoa pessoa1 = new Pessoa();
+string apresentacao = "Olá, seja bem vindo";
+int quantidade = 1;
+double altura = 1.80;
 
-pessoa1.Nome = "Bruno";
-pessoa1.Idade = 26;
-pessoa1.Apresentar();
+decimal preco = 1.80m;
 
-Pessoa pessoaFIsicaRepresentacao = new Pessoa();
+bool condicao = true;
+
+Console.WriteLine(apresentacao);
+Console.WriteLine("Valor da varíavel quantidade: " + quantidade);
+Console.WriteLine("Valor da varíavel altura: " + altura.ToString("0.00"));
+Console.WriteLine("Valor da varíavel preco: " + preco);
+Console.WriteLine("Valor da varíavel condicao: " + condicao);
+
+
+//Pessoa pessoa1 = new Pessoa();
+
+//pessoa1.Nome = "Bruno";
+//pessoa1.Idade = 26;
+//pessoa1.Apresentar();
+
+//Pessoa pessoaFIsicaRepresentacao = new Pessoa();
