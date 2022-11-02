@@ -1,18 +1,26 @@
 ﻿using ExemploFundamentos.Models;
 
-int a = 10;
-int b = 20;
 
-int c = a + b;
+// cast - casting
+//int a = Convert.ToInt32("5");
+int a = int.Parse("5");
+Console.WriteLine(a);
+
+
+
+// int a = 10;
+// int b = 20;
+
+// int c = a + b;
 
 //c = c + 5; // 30 + 5
 
 //c += 5;
 
 // c = c - 5
-c -= 5;
+//c -= 5;
 
-Console.WriteLine(c);
+//Console.WriteLine(c);
 
 
 // DateTime dataAtual = DateTime.Now.AddDays(5);
