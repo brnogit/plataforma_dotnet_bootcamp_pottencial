@@ -1,21 +1,38 @@
 ﻿using ExemploFundamentos.Models;
 
-Console.WriteLine("Digita uma letra");
-string letra = Console.ReadLine();
+bool ehMaiorDeIdade = true;
+bool possuiAutorizacaoDoResponsavel = false;
 
-switch (letra)
+if(ehMaiorDeIdade || possuiAutorizacaoDoResponsavel) 
 {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("Vogal");
-        break;
-    default:
-        Console.WriteLine("Não é uma vogal");
-        break;
+    Console.WriteLine("Entrada liberada!");
 }
+else
+{
+    Console.WriteLine("Entrada não liberada");
+}
+
+
+
+
+
+
+// Console.WriteLine("Digita uma letra");
+// string letra = Console.ReadLine();
+
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("Vogal");
+//         break;
+//     default:
+//         Console.WriteLine("Não é uma vogal");
+//         break;
+// }
 
 
 
