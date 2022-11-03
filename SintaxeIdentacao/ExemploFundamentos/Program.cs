@@ -1,8 +1,9 @@
 ﻿using ExemploFundamentos.Models;
 
 string opcao;
+bool exibirMenu = true;
 
-while(true)
+while(exibirMenu)
 {
     Console.Clear();
     Console.WriteLine("Digite a sua opção:");
@@ -29,7 +30,7 @@ while(true)
 
         case "4":
             Console.WriteLine("Encerrar");
-            Environment.Exit(0);
+            exibirMenu = false;
             break;
 
         default:
