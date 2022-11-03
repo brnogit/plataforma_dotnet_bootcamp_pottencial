@@ -1,6 +1,48 @@
 ﻿using ExemploFundamentos.Models;
 
-Calculadora calc = new Calculadora();
+int numero = 5;
+
+
+
+for(int contador = 0; contador <= 10; contador++) 
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Calculadora calc = new Calculadora();
 
 // calc.Somar(10, 30);
 // calc.Subtrair(10, 50);
@@ -10,7 +52,7 @@ Calculadora calc = new Calculadora();
 // calc.Seno(30);
 // calc.Coseno(30);
 // calc.Tangente(30);
-calc.RazQuadrada(9);
+// calc.RazQuadrada(9);
 
 
 // int numeroIncremento = 10;
