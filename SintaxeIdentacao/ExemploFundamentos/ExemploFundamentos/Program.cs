@@ -1,9 +1,37 @@
 ﻿using ExemploFundamentos.Common.Models;
 
-Pessoa pessoa1 = new Pessoa();
-pessoa1.Nome = "Bruno";
-pessoa1.Idade = 20;
-pessoa1.Apresentar();
+
+int[] arrayInteiros = new int[3];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa pessoa1 = new Pessoa();
+// pessoa1.Nome = "Bruno";
+// pessoa1.Idade = 20;
+// pessoa1.Apresentar();
 
 
 
