@@ -9,7 +9,7 @@ arrayInteiros[2] = 50;
 
 for(int contador = 0; contador < arrayInteiros.Length; contador++)
 {
-    
+    Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
 }
 
 
