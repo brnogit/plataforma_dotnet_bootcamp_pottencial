@@ -13,6 +13,7 @@ for(int contador = 0; contador < listaString.Count; contador++)
     Console.WriteLine($"Posição Nº {contador} - {listaString[contador]}");
 }
 
+Console.WriteLine("Percorrendo a lista com o FOREACH");
 int contadorForeach = 0;
 foreach(string item in listaString)
 {
