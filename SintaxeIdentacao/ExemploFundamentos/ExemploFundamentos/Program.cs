@@ -1,21 +1,33 @@
 ﻿using ExemploFundamentos.Common.Models;
 
-List<string> listaString = new List<string>();
+//Instancia da classe pessoa
+Pessoa p = new Pessoa();
 
-listaString.Add("SP");
-listaString.Add("BA");
-listaString.Add("MG");
-listaString.Add("RG");
+// Atribui o nome e idade para pessoa
+p.Nome = "Bruno";
+p.Idade = 30;
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// Faz a pessoa se apresentar
+p.Apresentar();
 
-listaString.Add("SC");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-listaString.Remove("MG");
+// List<string> listaString = new List<string>();
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// listaString.Add("SP");
+// listaString.Add("BA");
+// listaString.Add("MG");
+// listaString.Add("RG");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Add("SC");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Remove("MG");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
 // Console.WriteLine("Percorrendo a lista com o FOR");
 // for(int contador = 0; contador < listaString.Count; contador++)
