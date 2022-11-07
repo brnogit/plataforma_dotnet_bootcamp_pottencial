@@ -18,9 +18,8 @@ p.Idade = 30;
 // Faz a pessoa se apresentar
 p.Apresentar();
 
-Calculadora c = new Calculadora();
-c.Somar(3, 5);
-c.Subtrair(3, 5);
+
+p.CadastrarNoERPXYZDaEmpresa();
 
 
 // List<string> listaString = new List<string>();
