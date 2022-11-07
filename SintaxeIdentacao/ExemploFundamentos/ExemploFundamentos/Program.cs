@@ -4,6 +4,14 @@
 Pessoa p = new Pessoa();
 
 // Atribui o nome e idade para pessoa
+// passando o nome Bruno
+// e passando a idade 30
+
+/*
+    Atribui o nome e idade para pessoa
+    passando o nome Bruno
+    e passando a idade 30
+*/
 p.Nome = "Bruno";
 p.Idade = 30;
 
