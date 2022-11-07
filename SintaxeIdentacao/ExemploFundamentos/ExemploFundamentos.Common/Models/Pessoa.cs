@@ -15,6 +15,9 @@ namespace ExemploFundamentos.Common.Models
         public int Idade { get; set; }
         public string? NomeRepresentanteLegalDaPessoaFisica { get; set;}
         
+        /// <summary>
+        /// Faz a pessoa se apresentar, dizendo seu nome e idade
+        /// </summary>
         public void Apresentar()
         {
             //Console.WriteLine($"Olá, meu nome é {Nome}, \n e tenho {Idade} anos");

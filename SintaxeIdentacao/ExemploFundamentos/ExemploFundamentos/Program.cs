@@ -18,6 +18,9 @@ p.Idade = 30;
 // Faz a pessoa se apresentar
 p.Apresentar();
 
+Calculadora c = new Calculadora();
+c.Somar(3, 5);
+c.Subtrair(3, 5);
 
 
 // List<string> listaString = new List<string>();
@@ -209,7 +212,7 @@ p.Apresentar();
 //         case "2":
 //             Console.WriteLine("Busca de cliente");
 //             break;
-        
+
 //         case "3":
 //             Console.WriteLine("Apagar cliente");
 //             break;
@@ -299,7 +302,7 @@ p.Apresentar();
 //     {
 //         break;
 //     }
-    
+
 
 // }
 
